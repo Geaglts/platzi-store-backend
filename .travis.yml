@@ -25,7 +25,8 @@ deploy:
   provider: heroku
   cleanup: true
   keep_history: true
-  api_key: 891b49f0-f035-45d1-abdc-fce1c51ed14c
+  api_key:
+    secure: "NteZ8MDA6c/YEPwtDVkmQXMz79a5ScEAZU1ibzr33Ae+HYcMG3DvFBkjO3YXfmvwpo8jHrZgwDkL7tAY2w8lafpBDtLjetT4t1GfpUu+RNXdk0YrsFnqUAx9FxhHw8/XYPO4VPheJkNRfIinHKqU9iOmm67ixthHNozgdtOHtGb+g01ifp8CX4E+7I7QZBhDlVqvKCqsca9sJbmKZIBw60aKwTnZH1/GSofekIUbOsVKSBB761VAzf/7i13B9ip9WSxUy6IrDTuQZ8gz0M3B3H8VyczQFwyN7hbXLiwW29jHd3c9dQa1V3T837rrZfqCAcBa3ldkmQjGel2KYgIbCBOsN5yinc6/zQ59GO2rvB1zKwaweF6WxXs3lTmW8IxCgSTH0yVDNppz8QPwUkh/ECfYMdnutXl4DgtxOwef5QkVhQl/7fncbpv4ayfM204Pa+Yb9q3WzkyZZFsYiykq28u3Z0nYtmL6wCVLnZPE5Bi2vQSydXpuapiV+u7cIBmd+GHEcoYMVKqDAIBvXMMCRlkShzq6fNYGpmdamuqCEMC1snDOdqoLjl9YR7rDzGL0IDWeDm027R63XA0oDlnqE5TiLb+SYVgSg1q+BGqUIanLd4rY9Eyhci4YQBls3+ufmTTvwf144XIrn+PsBeak5yRK5okW0w8FB7ZgkFszW3o="
   app: platzi-store-bac
   on:
     repo: Geaglts/platzi-store-backend
