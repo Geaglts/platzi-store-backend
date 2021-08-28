@@ -1,0 +1,31 @@
+languaje: node_js
+
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+
+node_js:
+  - "12"
+
+git:
+  depth: 3
+
+script:
+  - yarn test
+
+notifications:
+  email:
+    recipients:
+      - geaglts@gmail.com
+    on_success: always
+    on_failure: always
+
+deploy:
+  provider: heroku
+  cleanup: true
+  keep_history: true
+  api_key: 891b49f0-f035-45d1-abdc-fce1c51ed14c
+  app: platzi-store-bac
+  on:
+    repo: geaglts/platzi-store-backend
