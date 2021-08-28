@@ -28,4 +28,4 @@ deploy:
   api_key: 891b49f0-f035-45d1-abdc-fce1c51ed14c
   app: platzi-store-bac
   on:
-    repo: geaglts/platzi-store-backend
+    repo: Geaglts/platzi-store-backend
